@@ -130,6 +130,7 @@ export const getCars = async (
         return brandMatch && typeMatch && priceMatch;
       });
   } catch (error) {
+    alert('amin')
     console.error('Error fetching cars:', error);
     return [];
   }
