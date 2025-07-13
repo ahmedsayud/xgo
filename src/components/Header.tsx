@@ -18,8 +18,8 @@ const Header = () => {
 
   return (
     <>
-      <nav>
-        <div className="container mx-auto px-6 lg:px-8 py-4">
+      <nav className='fixed top-0 left-0 right-0  bg-white z-50'>
+        <div className="container mx-auto px-6 lg:px-8 py-4 ">
           <div className="flex items-center justify-between">
             <div className="md:hidden">
               <button
