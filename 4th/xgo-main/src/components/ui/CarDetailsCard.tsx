@@ -10,6 +10,8 @@ import EarbudsIcon from '@mui/icons-material/Earbuds';interface Props {
 filters: FilterState;
 }
 
+////////////uwohvihwhvpweivhiwheivowiehviowehovwiehvwev
+
 const CarDetailsCard: React.FC<Props> = ({ filters }) => {
 const [cars, setCars] = useState<CarItem[]>([]);
 const [loading, setLoading] = useState(true);
